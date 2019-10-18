@@ -26,13 +26,13 @@ export default () => (
             </style>
             <Form>
                 <Row>
-                    <Col >
+                    <Col md="6">
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Nome</Form.Label>
                             <Form.Control placeholder="Digite seu nome" />
                         </Form.Group>
                     </Col>
-                    <Col >
+                    <Col md="6">
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>E-mail</Form.Label>
                             <Form.Control type="email" placeholder="Digite seu e-mail" />

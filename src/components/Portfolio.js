@@ -9,7 +9,7 @@ import '../styles/Portfolio.css'
 export default () => (
     <div className="wrapper">
         <div className="header">
-            <h2>Portfolio</h2>
+            <h3>Portfolio</h3>
             <hr></hr>
         </div>
         <div className="thumb"><img src={Thumb01} alt="editor_sql" className="responsive"></img></div>

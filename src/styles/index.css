@@ -15,6 +15,17 @@ body {
     grid-template-rows: repeat(4, 100vh) 72px;
 }
 
+h5{
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+h3{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+}
+
 section {
     height: 100vh;
     background-color: #f2f2f2;

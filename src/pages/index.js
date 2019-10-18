@@ -8,6 +8,7 @@ import Contato from '../components/Contato';
 import Footer from '../components/Footer';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../styles/index.css';
+import 'typeface-raleway';
 
 export default () =>
     <Fragment>
