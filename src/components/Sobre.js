@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../styles/Sobre.css';
-import Image from "../images/office-820390_1920.jpg";
+import Image from "../images/office.jpg";
 
 export default () => (
     <div className="wrapper">
