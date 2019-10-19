@@ -3,15 +3,10 @@
     background-color: #dfe4ff;
 }
 
-
-
 #home-container>img{
     margin-top:60px;
     background-size: cover;    
 }
-
-
-
 
 #slogan{
     position: absolute;
@@ -33,8 +28,6 @@ h5{
     white-space: nowrap;
     align-self: flex-end;
 }
-
-
 
 @media only screen and (max-width: 800px) {
     #home {

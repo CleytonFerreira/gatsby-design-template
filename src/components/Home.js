@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Home.css';
-import BgHome from '../images/bg.png';
+import BgHome from '../images/background.png';
 
 export default () => (
     <div id="home-container">
-        <img src={BgHome} alt="bg-home" className="responsive" id="bg"></img>
+        <img src={BgHome} alt="bg-home" className="responsive" id="bg" />
         
         <div id="slogan">
         <div className="vertical-line"></div>
