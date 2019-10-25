@@ -1,8 +1,6 @@
 import React from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 
-import '../styles/Contato.css';
-
 export default () => (
     <div className="wrapper">
         <div className="header">
@@ -13,12 +11,12 @@ export default () => (
             <style>
                 {`
                     .btn-custom {
-                        background-color: #D10029;
+                        background-color: #00b2f1;
                         color: #fff;
                     }
 
                     .btn-custom:hover {
-                        background-color: #F90031;
+                        background-color: #43ccfd;
                         transition: 0.5s;
                         color: #fff;
                     }
@@ -45,7 +43,7 @@ export default () => (
                 </Form.Group>
 
                 <Row className="justify-content-end pr-3">
-                    <Button variant="custom" type="submit">Enviar</Button>
+                    <Button size="lg" variant="custom" type="submit">Enviar</Button>
                 </Row>
             </Form>
         </div>

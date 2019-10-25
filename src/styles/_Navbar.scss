@@ -1,0 +1,16 @@
+nav {
+  background-color: #fff;
+  #responsive-navbar-nav {
+    font-size: 20px;
+    justify-content: flex-end;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(97, 93, 93);
+  &:hover{
+    transition: 0.5s;
+    color: #00b2f1;
+  }
+}
+

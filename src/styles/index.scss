@@ -1,0 +1,66 @@
+@import "./Home";
+@import "./Sobre";
+@import "./Portfolio";
+@import "./Contato";
+@import "./Navbar";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "Home"
+    "Sobre"
+    "Portfolio"
+    "Contato"
+    "footer";
+  grid-template-rows: repeat(4, 100vh) auto;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+section {
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 80px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+hr {
+  border: lightgray 0.5px solid;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    grid-template-rows: auto;
+  }
+  section {
+    height: auto;
+  }
+}

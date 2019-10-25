@@ -3,7 +3,6 @@ import Thumb01 from "../images/editor-sql.png";
 import Thumb02 from "../images/escola.png";
 import Thumb03 from "../images/restaurante.png";
 import Thumb04 from "../images/design.png";
-import '../styles/Portfolio.css'
 
 
 export default () => (

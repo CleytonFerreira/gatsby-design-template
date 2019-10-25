@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Home.css';
 import BgHome from '../images/background.png';
 
 export default () => (

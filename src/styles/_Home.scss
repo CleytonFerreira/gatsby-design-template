@@ -1,0 +1,44 @@
+#home {
+  background-color: #dfe4ff;
+  #home-container {
+    img {
+      margin-top: 60px;
+      background-size: cover;
+    }
+  }
+}
+
+#slogan {
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 75%;
+}
+
+.vertical-line {
+  border-left: 5px solid #00b2f1;
+  height: 90px;
+  position: absolute;
+  left: -7%;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  #home {
+    height: 100vh;
+  }
+
+  #home-container > img {
+    margin-top: 120px;
+  }
+
+  #slogan {
+    top: 60%;
+    left: 18%;
+  }
+}

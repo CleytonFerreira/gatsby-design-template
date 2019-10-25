@@ -1,6 +1,4 @@
 import React from 'react';
-
-import '../styles/Sobre.css';
 import Image from "../images/office.jpg";
 
 export default () => (
