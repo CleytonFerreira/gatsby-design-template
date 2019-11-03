@@ -75,6 +75,10 @@ h5 {
   .thumb {
     width: 100%;
   }
+  .thumb img {
+    max-width: none;
+    max-height: none;
+  }
 }
 #contato > .wrapper {
   justify-content: center;
@@ -155,6 +159,10 @@ hr {
 
   section {
     height: auto;
+  }
+
+  .wrapper {
+    padding: 60px 20px;
   }
 }
 

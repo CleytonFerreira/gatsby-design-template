@@ -13,5 +13,9 @@
 @media only screen and (max-width: 768px) {
   .thumb {
     width: 100%;
+    img{
+      max-width: none;
+      max-height: none;
+    }
   }
 }
