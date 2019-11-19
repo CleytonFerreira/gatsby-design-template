@@ -13,7 +13,7 @@ function toggleNavbar() {
 export default () => (
     <Navbar collapseOnSelect expand="lg" fixed="top">
         <Navbar.Brand onClick={() => { scrollTo('#home'); toggleNavbar() }}>Logo</Navbar.Brand>
-        <Navbar.Toggle id="nav-button" aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle id="nav-button" aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
                 <Nav.Link onClick={() => { scrollTo('#home'); toggleNavbar() }}>Home</Nav.Link>
