@@ -23,7 +23,12 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <div className="nav-brand">Logo</div>
+                <div className="nav-brand" tabIndex="1">Logo</div>
+                <button tabIndex="2" onClick={this.toggle} className="nav-toggler" 
+                    aria-label="alternar navegação" 
+                    aria-expanded={this.state.opened? "true" : "false"}>
+                        <FontAwesomeIcon icon={faBars}/>
+                </button>
                 <ul className={`nav-links ${this.state.opened ? "opened" : "closed"}`}>
                     <li className="nav-link">
                         <button onClick={() => { scrollTo('#home'); this.toggle()}}>Home</button>
@@ -38,7 +43,7 @@ export default class Navbar extends Component {
                         <button onClick={() => { scrollTo('#contato'); this.toggle()}}>Contato</button>
                     </li>
                 </ul>
-                <div className="nav-toggler"><FontAwesomeIcon icon={faBars} onClick={this.toggle} /></div>
+                
             </nav>
         )
     }
